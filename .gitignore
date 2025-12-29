@@ -1,0 +1,31 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.log
+
+# Chat history (contains personal data)
+chat_history.json
+
+# Grok CLI runtime files
+.grok_context.json
+.grok_history.json
+
+.claude
+
+*.sh

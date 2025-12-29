@@ -1,0 +1,15 @@
+# Grok CLI ignore patterns
+# Lines starting with # are comments
+chat_history.json
+# Hidden files/directories
+.*
+
+# Build directories
+target
+node_modules
+__pycache__
+.venv
+venv
+
+# Log files
+*.log

@@ -1,0 +1,29 @@
+[package]
+name = "grok-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dotenv = "0.15"
+rustyline = "12.0"
+colored = "2.0"
+clap = { version = "4.0", features = ["derive"] }
+anyhow = "1.0"
+termimad = "0.20"
+indicatif = "0.17"
+ratatui = "0.29"
+tui-textarea = "0.7"
+crossterm = "0.28"
+glob = "0.3"
+regex = "1.10"
+chrono = "0.4"
+scopeguard = "1.2"
+lazy_static = "1.5"
+serde_yaml = "0.9"
+
+[dev-dependencies]
+tempfile = "3.8"
